@@ -264,8 +264,8 @@ input, textarea, .btn {
     border-radius: 15px;
     padding: 40px 0;
 }
-.idioma{
-    border-radius: 50px;
+.card-idioma{
+    border-radius: px;
     box-sizing: border-box;
 }
 
@@ -286,4 +286,10 @@ input, textarea, .btn {
             font-size: 16px;
             border: #E20000 1px solid;
         }
+    #sobre-mi .descripcion img{
+        height: 200px;
+        width: 200px;
+        margin-right: 20px;
+        margin-top: 80px;
+    }
 }

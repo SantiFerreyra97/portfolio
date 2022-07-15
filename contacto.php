@@ -1,3 +1,6 @@
+<?php
+$pg = "contacto"
+?>
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 
@@ -16,33 +19,7 @@
 
 <body id="contacto" class="d-flex flex-column h-100">
     <header class="container">
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link px-3" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link px-3" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link px-3 " href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link px-3 active" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="float-end">
-                        <a href="" class="btn btn-rojo  ">Descargar mi CV <i class="fas fa-download"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <?php include_once("menu.php") ?>
     </header>
     <main class="container">
         <div class="row">
@@ -57,20 +34,16 @@
             <div class="col-12 col-sm-6">
                 <form action="" method="POST">
                     <div class="pb-3">
-                        <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre"
-                            class="form-control shadow">
+                        <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control shadow">
                     </div>
                     <div class="pb-3">
-                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo"
-                            class="form-control shadow">
+                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" class="form-control shadow">
                     </div>
                     <div class="pb-3">
-                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Telefono/Whatsapp"
-                            class="form-control shadow">
+                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Telefono/Whatsapp" class="form-control shadow">
                     </div>
                     <div class="pb-3">
-                        <textarea name="txtMensaje" id="txtMensaje" class="form-control shadow"
-                            placeholder="Escribe aquí tu mensaje"></textarea>
+                        <textarea name="txtMensaje" id="txtMensaje" class="form-control shadow" placeholder="Escribe aquí tu mensaje"></textarea>
                     </div>
                     <div class="">
                         <button class="btn" type="submit" name="btnEnviar" id="btnEnviar">ENVIAR</button>
@@ -85,8 +58,7 @@
         <div class="row mt-5 pb-3">
             <div class="col-12 col-sm-3 text-center text-sm-start">
                 <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/nelson-daniel-tarche/" target="_blank" title="Linkedin"><i
-                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/nelson-daniel-tarche/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
             </div>
             <div class="col-12 col-sm-3 text-center text-sm-start pt-2 p-sm-0">
                 Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
@@ -96,8 +68,7 @@
             </div>
         </div>
         <div class="whatsapp">
-            <a href="https://api.whatsapp.com/send?phone=3535653057" title="Whatsapp"><i
-                    class="fab fa-whatsapp"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=3535653057" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
         </div>
     </footer>
 </body>

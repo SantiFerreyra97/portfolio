@@ -1,3 +1,6 @@
+<?php 
+$pg="proyectos"
+?>
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 
@@ -13,35 +16,10 @@
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body id="proyectos" class="d-flex flex-column h-100">
     <header class="container">
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link px-3" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link px-3" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link px-3 active" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link px-3 " href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="float-end">
-                        <a href="" class="btn btn-rojo  ">Descargar mi CV <i class="fas fa-download"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <?php include_once("menu.php") ?>
     </header>
     <main class="container">
         <div class="row">
@@ -76,8 +54,8 @@
                             <img src="images/abmventas.png" class="img-fluid" alt="AMB VENTAS">
                             <h2 class="">SISTEMA GESTION DE VENTAS</h2>
                             <p class="py-2 px-3">Sistema de gestión de clientes, productos y ventas. Realizado en HTML, CSS, PHP, MVC,
-                            Bootstrap, Js, Ajax, jQuery y
-                            MySQL de base de datos.</p>
+                                Bootstrap, Js, Ajax, jQuery y
+                                MySQL de base de datos.</p>
                         </div>
                         <div class="col-6">
                             <a href="#" class="btn-rojo">Ver online</a>
@@ -93,8 +71,8 @@
                             <img src="images/proyecto-integrador.png" class="img-fluid" alt="PROYECTO INTEGRADOR">
                             <h2 class="">PROYECTO INTEGRADOR</h2>
                             <p class="py-2 px-3">Proyecto Full Stack desarrollado en PHP, Laravel, Javascript, jQuery, AJAX, HTML, CSS,
-                            Mercadopago con panel
-                            administrador, gestor de usuarios, módulo de permisos y funcionalidades a fines.</p>
+                                Mercadopago con panel
+                                administrador, gestor de usuarios, módulo de permisos y funcionalidades a fines.</p>
                         </div>
                         <div class="col-6">
                             <a href="#" class="btn-rojo">Ver online</a>
@@ -110,8 +88,7 @@
         <div class="row mt-5 pb-3">
             <div class="col-12 col-sm-3 text-center text-sm-start">
                 <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/nelson-daniel-tarche/" target="_blank" title="Linkedin"><i
-                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/nelson-daniel-tarche/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
             </div>
             <div class="col-12 col-sm-3 text-center text-sm-start pt-2 p-sm-0 ">
                 Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
@@ -121,8 +98,7 @@
             </div>
         </div>
         <div class="whatsapp">
-            <a href="https://api.whatsapp.com/send?phone=3535653057" title="Whatsapp"><i
-                    class="fab fa-whatsapp"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=3535653057" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
         </div>
     </footer>
 </body>

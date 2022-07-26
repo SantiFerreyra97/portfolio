@@ -42,37 +42,37 @@ $pg = "sobre-mi"
                         <div class="col-12 col-sm-2">
                             <div class="bg-white my-3 p-3 text-center">
                                 <p class="text-center ">Javascript</p>
-                                <img src="/images/stack-javascript.jpeg" alt="JavaScript">
+                                <img src="images/stack-javascript.jpeg" alt="JavaScript">
                             </div>
                         </div>
                         <div class="col-12 col-sm-2">
                             <div class="bg-white my-3 p-3 text-center">
                                 <p class="text-center">PHP</p>
-                                <img src="/images/stack-php.jpg" alt="PHP">
+                                <img src="images/stack-php.jpg" alt="PHP">
                             </div>
                         </div>
                         <div class="col-12 col-sm-2">
                             <div class="bg-white my-3 p-3 text-center">
                                 <p class="text-center">HTML5</p>
-                                <img src="/images/stack-html5.png" alt="HTML5">
+                                <img src="images/stack-html5.png" alt="HTML5">
                             </div>
                         </div>
                         <div class="col-12 col-sm-2">
                             <div class="bg-white my-3 p-3 text-center">
                                 <p class="text-center">React.js</p>
-                                <img src="/images/stack-react.png" alt="React.js">
+                                <img src="images/stack-react.png" alt="React.js">
                             </div>
                         </div>
                         <div class="col-12 col-sm-2">
                             <div class="bg-white my-3 p-3 text-center">
                                 <p class="text-center">jQuery</p>
-                                <img src="/images/stack-jquery.jpg" alt="jQuery">
+                                <img src="images/stack-jquery.jpg" alt="jQuery">
                             </div>
                         </div>
                         <div class="col-12 col-sm-2">
                             <div class="bg-white my-3 p-3 text-center">
                                 <p class="text-center">Bootstrap</p>
-                                <img src="/images/stack-boostrap.png" alt="Bootstrap">
+                                <img src="images/stack-boostrap.png" alt="Bootstrap">
                             </div>
                         </div>
                     </div>
@@ -80,38 +80,38 @@ $pg = "sobre-mi"
                         <div class="col-12 col-sm-2">
                             <div class="bg-white my-3 p-3 text-center">
                                 <p class="text-center">Laravel</p>
-                                <img src="/images/stack-laravel.png" alt="Laravel">
+                                <img src="images/stack-laravel.png" alt="Laravel">
                             </div>
                         </div>
                         <div class="col-12 col-sm-2">
                             <div class="bg-white my-3 p-3 text-center">
                                 <p class="text-center">MySQL</p>
-                                <img src="/images/stack-mysql.png" alt="MySQL">
+                                <img src="images/stack-mysql.png" alt="MySQL">
                             </div>
                         </div>
                         <div class="col-12 col-sm-2">
                             <div class="bg-white my-3 p-3 text-center">
                                 <p class="text-center">CSS</p>
-                                <img src="/images/stack-css.png" alt="CSS">
+                                <img src="images/stack-css.png" alt="CSS">
                             </div>
 
                         </div>
                         <div class="col-12 col-sm-2">
                             <div class="bg-white my-3 p-3 text-center">
                                 <p class="text-center">GIT</p>
-                                <img src="/images/stack-git.png" alt="Git">
+                                <img src="images/stack-git.png" alt="Git">
                             </div>
                         </div>
                         <div class="col-12 col-sm-2">
                             <div class="bg-white my-3 p-3 text-center">
                                 <p class="text-center">Apache</p>
-                                <img class="w-100" src="/images/stack-apache.png" alt="Apache">
+                                <img class="w-100" src="images/stack-apache.png" alt="Apache">
                             </div>
                         </div>
                         <div class="col-12 col-sm-2">
                             <div class="bg-white my-3 p-3 text-center">
                                 <p class="text-center">Mercadopago</p>
-                                <img src="/images/stack-mercadopago.jpg" alt="MercadoPago">
+                                <img src="images/stack-mercadopago.jpg" alt="MercadoPago">
                             </div>
                         </div>
                     </div>
@@ -131,7 +131,7 @@ $pg = "sobre-mi"
                 <div class="container shadow ">
                     <div class="row mb-3">
                         <div class="col-12 col-sm-2 text-center">
-                            <img src="/images/sanmartin_kz.svg" alt="Club San Martin">
+                            <img src="images/sanmartin_kz.svg" alt="Club San Martin">
                         </div>
                         <div class="col-12 col-sm-10 p-3">
                             <h3>Jugador</h3>
@@ -142,7 +142,7 @@ $pg = "sobre-mi"
                     </div>
                     <div class="row mb-3">
                         <div class="col-12 col-sm-2 text-center">
-                            <img src="/images/barrioparque.png" alt="Club Barrio Parque">
+                            <img src="images/barrioparque.png" alt="Club Barrio Parque">
                         </div>
                         <div class="col-12 col-sm-10 p-3">
                             <h3>Jugador</h3>
@@ -153,7 +153,7 @@ $pg = "sobre-mi"
                     </div>
                     <div class="row mb-3">
                         <div class="col-12 col-sm-2 text-center">
-                            <img src="/images/sanlorenzo.jpg" alt="Club San Lorenzo">
+                            <img src="images/sanlorenzo.jpg" alt="Club San Lorenzo">
                         </div>
                         <div class="col-12 col-sm-10 p-3">
                             <h3>Jugador</h3>
@@ -164,7 +164,7 @@ $pg = "sobre-mi"
                     </div>
                     <div class="row mb-3">
                         <div class="col-12 col-sm-2 text-center">
-                            <img src="/images/hindu.jfif" alt="Club Hindu">
+                            <img src="images/hindu.jfif" alt="Club Hindu">
                         </div>
                         <div class="col-12 col-sm-10 p-3">
                             <h3>Jugador</h3>
@@ -174,7 +174,7 @@ $pg = "sobre-mi"
                         </div>
                         <div class="row mb-3">
                             <div class="col-12 col-sm-2 text-center">
-                                <img src="/images/union.png" alt="Club Union">
+                                <img src="images/union.png" alt="Club Union">
                             </div>
                             <div class="col-12 col-sm-10 p-3">
                                 <h3>Jugador</h3>
@@ -185,7 +185,7 @@ $pg = "sobre-mi"
                         </div>
                         <div class="row mb-3">
                             <div class="col-12 col-sm-2 text-center">
-                                <img src="/images/comuniacaciones.png" alt="Club Comunicaciones">
+                                <img src="images/comuniacaciones.png" alt="Club Comunicaciones">
                             </div>
                             <div class="col-12 col-sm-10 p-3">
                                 <h3>Jugador</h3>

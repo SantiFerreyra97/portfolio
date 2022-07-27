@@ -75,17 +75,17 @@ body{
     text-decoration: none;
  }
  
-#contacto footer, #inicio footer{
+#confirmacion-envio footer, #contacto footer, #inicio footer{
     color: white;
  }
-#contacto footer a, #inicio footer a{
+#confirmacion-envio footer, #contacto footer a, #inicio footer a{
     color: white;
  }
-#contacto footer .fa-github, #inicio footer .fa-github{
+#confirmacion-envio footer, #contacto footer .fa-github, #inicio footer .fa-github{
     color: white;
     font-size: 30px;
  }
-#contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in{
+#confirmacion-envio footer, #contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in{
     color: #ff4a49;
     background-color: white;
     font-size: 20px;
@@ -271,7 +271,7 @@ input, textarea, .btn {
 }
 
 @media(max-width: 750px){
-    #contacto {
+    #confirmacion-envio, #contacto {
         background-image: url(../images/fondo-contacto.png);
         background-size: contain;
         background-repeat: no-repeat;
